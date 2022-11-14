@@ -1,0 +1,77 @@
+.page {
+    background-color: #2A2C2F;
+    min-width: 320px;
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 28px;
+    max-width: 1184px;
+    min-width: 320px;
+}
+
+.header__logo {
+    
+}
+
+.header__links {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;    
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.header__links_type_activated {
+    padding-right: 18px;
+    text-decoration: underline;
+}
+
+.travel-map {
+    margin: 0 auto;
+    max-width: 984px;
+    min-width: 320px;
+    position: relative;
+}
+
+.travel-map__title {
+    margin: 136px auto 32px auto;
+    max-width: 720px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+}
+
+.travel-map__subtitle {
+    max-width: 640px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.travel-map__lead-polka{
+    max-width: 100%;
+}
+
+.travel-map__lead-polka-text{
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+margin: 0;
+margin-top: 8px;
+}
