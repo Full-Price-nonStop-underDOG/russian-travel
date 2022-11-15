@@ -14,15 +14,13 @@
     min-width: 320px;
 }
 
-.header__logo {
-    
-}
+.header__logo {}
 
 .header__links {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;    
+    font-size: 24px;
     line-height: 28px;
     text-decoration: none;
 }
@@ -50,6 +48,15 @@
     line-height: 100px;
 }
 
+@media screen and (max-width: 728px){
+    .travel-map__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    }
+}
+
 .travel-map__subtitle {
     max-width: 640px;
     min-width: 288px;
@@ -62,29 +69,29 @@
     line-height: 36px;
 }
 
-.travel-map__lead-polka{
+.travel-map__lead-polka {
     max-width: 100%;
 }
 
-.travel-map__lead-polka-text{
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 14px;
-letter-spacing: 1.5px;
-text-transform: uppercase;
-margin: 0;
-margin-top: 8px;
+.travel-map__lead-polka-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 8px;
 }
 
-.info{
+.info {
     margin: 0 auto;
     max-width: 984px;
     min-width: 288px;
     position: relative;
 }
 
-.info__title{
+.info__title {
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -92,7 +99,7 @@ margin-top: 8px;
     margin: 92px 0 40px 0;
 }
 
-.info__subtitle{
+.info__subtitle {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -100,7 +107,7 @@ margin-top: 8px;
 
 }
 
-.info__stats{
+.info__stats {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -111,21 +118,173 @@ margin-top: 8px;
     margin-top: 33px;
 }
 
-.info__stats_style_bold{
+.info__stats_style_bold {
     font-weight: 700;
-   
+
 }
 
-.photo-gallery{
+.photo-gallery {
     margin: 92px auto 0 auto;
     max-width: 1184px;
-    min-width: 288px;  
+    min-width: 288px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 16px;
 }
 
-.photo-gallery__grid{
+.photo-gallery__grid {
     max-width: 100%;
+}
+
+.locations {
+    max-width: 984px;
+    min-width: 288px;
+    margin: 0 auto;
+
+}
+
+.location {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: 1fr max-content;
+    gap: 48px 40px;
+    margin: 0;
+    margin-top: 92px;
+}
+
+.location__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+}
+
+.location__link {
+    align-self: end;
+}
+
+.location__link__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+}
+
+.location__link_style_underline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.location__img {
+    width: 460px;
+}
+
+.location__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+
+}
+
+.location__text__el {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 26px;
+}
+
+.farewell-photo {
+    max-width: 1184px;
+    margin: 92px auto 92px auto;
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
+    grid-gap: 32px;
+
+
+}
+
+.farewell-photo__title {
+    margin: 0;
+    max-width: 560px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    justify-self: center;
+    align-self: end;
+
+}
+
+.farewell-photo__subtitle {
+    margin: 0;
+    max-width: 360px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: center;
+    grid-row: 2;
+    grid-column: 1;
+    z-index: 1;
+    justify-self: center;
+
+
+}
+
+.farewell-photo__background {
+
+    background-image: url(../photo/cover-trains.jpg);
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1;
+    grid-row: 1/3;
+
+}
+
+.farewell-photo__size {
+    display: block;
+    min-height: 740px;
+    grid-row: 1/3;
+    grid-column: 1;
+}
+
+.footer {
+    max-width: 1184px;
+    min-width: 320px;
+    margin: 0 auto 24px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    color: #FFFFFF;
+    text-decoration-line: none;
+    padding-right: 18px;
+}
+
+.footer__author {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+
 }
