@@ -1,4 +1,4 @@
-.location__link_style_underline {
+.location__website {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.location__link_style_underline::before {
+.location__website::before {
     content: "";
     position: absolute;
     top: 0;
@@ -20,6 +20,6 @@
     transition: .7s ease;
 }
 
-.location__link_style_underline:hover {
+.location__website:hover {
     opacity: 0.8;
 }
