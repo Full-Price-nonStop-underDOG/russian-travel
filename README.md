@@ -13,4 +13,5 @@
 * before
 
 ## Проект на github
+https://full-price-nonstop-underdog.github.io/russian-travel/
 
