@@ -1,0 +1,10 @@
+.travel-map__title {
+    margin: 136px auto 32px auto;
+    max-width: 720px;
+    min-width: 288px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+}

@@ -1,0 +1,25 @@
+.location__link_style_underline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.location__link_style_underline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: .7s ease;
+}
+
+.location__link_style_underline:hover {
+    opacity: 0.8;
+}

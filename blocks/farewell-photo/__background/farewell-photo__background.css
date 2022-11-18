@@ -1,0 +1,11 @@
+.farewell-photo__background {
+
+    background-image: url(../../../photo/cover-trains.jpg);
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1;
+    grid-row: 1/3;
+
+}
