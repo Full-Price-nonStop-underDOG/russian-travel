@@ -1,7 +1,19 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-3.19/InterVariable/Inter.ttf);
+
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
 .page {
     background-color: #2A2C2F;
     min-width: 320px;
     color: #FFFFFF;
+    font-family: "Inter";
 }
 
 .header {
@@ -48,14 +60,7 @@
     line-height: 100px;
 }
 
-@media screen and (max-width: 728px){
-    .travel-map__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 44px;
-    }
-}
+
 
 .travel-map__subtitle {
     max-width: 640px;
@@ -159,6 +164,7 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
+    max-width: 460px;
 }
 
 .location__link {
@@ -181,6 +187,7 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
+    position: relative;
 }
 
 .location__img {
@@ -208,6 +215,7 @@
     display: grid;
     grid-template-rows: repeat(2, min-content);
     grid-gap: 32px;
+    
 
 
 }
@@ -257,7 +265,6 @@
 }
 
 .farewell-photo__size {
-    display: block;
     min-height: 740px;
     grid-row: 1/3;
     grid-column: 1;
@@ -287,4 +294,190 @@
     font-size: 14px;
     line-height: 114%;
 
+}
+
+.farewell-photo::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: .7s ease;
+    
+}
+
+.farewell-photo:hover{
+    opacity: 0.8;
+    
+}
+
+.location__link_style_underline::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: .7s ease;
+}
+
+.location__link_style_underline:hover{
+    opacity: 0.8; 
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .photo-gallery {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .location__img{
+        width: 440px;
+    }
+
+    .farewell-photo{
+        max-width: 1024px;
+    }
+
+    .farewell-photo__size{
+        min-height: 640px;
+        max-height: 740;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .photo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .location{
+        gap: 48px 28px;
+    }
+
+    .location__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .location__link__text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .location__text__el{
+        font-size: 16px;
+        line-height: 163%;
+    }
+
+    .location__img{
+        width: 340px;
+    }
+
+    .farewell-photo{
+        max-width: 768px;
+    }
+
+    .farewell-photo__size{
+        min-height: 480px;
+        max-height: 640px;
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 320px) {
+    .travel-map__title {
+        font-style: normal;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .travel-map__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .info__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    
+    .photo-gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+    }
+
+    .location {
+        display: grid;
+        grid-template-columns: minmax(min-content, max-content);
+        max-width: 650px;
+        gap: 32px;
+        
+        
+    }
+
+    .location__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .location__img{
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 642px)  {
+    .farewell-photo__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .farewell-photo__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .farewell-photo{
+        max-width: 650px;
+    }
+
+    .farewell-photo__size{
+        min-height: 200px;
+        max-height: 480px;
+    }
+
+    .footer{
+        flex-direction: column; 
+        
+    }
+
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__link{
+        margin-bottom: 32px;
+        font-size: 24px;
+line-height: 24px;
+    }
+
+    .footer__author{
+        margin-top: 16px;
+        line-height: 14px;
+    }
 }
