@@ -15,12 +15,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    transition: .7s ease;
-    z-index: -1;
+    right: 0;
+    bottom: 0;
+    
+    background-color: #000;
+	opacity: 0.3;
 
 }
 
