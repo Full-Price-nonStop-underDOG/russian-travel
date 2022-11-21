@@ -5,3 +5,11 @@
     line-height: 114%;
 
 }
+
+@media screen and (max-width: 642px) {
+
+    .footer__author {
+        margin-top: 16px;
+        line-height: 14px;
+    }
+}
