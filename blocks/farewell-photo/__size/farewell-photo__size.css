@@ -8,7 +8,7 @@
 
     .farewell-photo__size {
         min-height: 640px;
-        max-height: 740px;
+        
     }
 }
 
@@ -16,7 +16,7 @@
 
     .farewell-photo__size {
         min-height: 480px;
-        max-height: 640px;
+       
     }
 }
 
@@ -24,6 +24,6 @@
 
     .farewell-photo__size {
         min-height: 200px;
-        max-height: 480px;
+       
     }
 }

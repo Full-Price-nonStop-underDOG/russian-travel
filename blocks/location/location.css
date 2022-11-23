@@ -7,10 +7,19 @@
     margin-top: 92px;
 }
 
+@media screen and (max-width: 1024px) {
+
+    .location {
+        gap: 48px 32px;
+        margin-left: 48px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .location {
         gap: 48px 28px;
+        margin-left: 24px;
     }
 }
 
@@ -21,5 +30,6 @@
         grid-template-columns: minmax(min-content, max-content);
         max-width: 650px;
         gap: 32px;
+        margin-left: 16px;
     }
 }

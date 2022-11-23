@@ -6,6 +6,11 @@
     line-height: 28px;
     text-decoration: none;
     position: relative;
+    
+}
+
+.header__links:first-child{
+    padding-right: 18px;
 }
 
 .header__links::before {

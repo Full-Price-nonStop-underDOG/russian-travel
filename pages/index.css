@@ -6,13 +6,13 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__links/_type/header__links_type_activated.css);
+@import url(../blocks/header/__links/_type/header__links_type-activated.css);
 
 @import url(../blocks/travel-map/travel-map.css);
 @import url(../blocks/travel-map/__title/travel-map__title.css);
 @import url(../blocks/travel-map/__subtitle/travel-map__subtitle.css);
 @import url(../blocks/travel-map/__lead-polka/travel-map__lead-polka.css);
-@import url(../blocks/travel-map/__lead-polka-text/);
+@import url(../blocks/travel-map/__lead-polka-text/travel-map__lead-polka-text.css);
 
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__title/info__title.css);
@@ -24,14 +24,14 @@
 @import url(../blocks/photo-gallery/__grid/photo-gallery__grid.css);
 
 @import url(../blocks/locations/locations.css);
-@import url(../blocks/locations/location/location.css);
-@import url(../blocks/locations/location/__title/location__title.css);
-@import url(../blocks/locations/location/__text/location__text.css);
-@import url(../blocks/locations/location/__paragraph/location__paragraph.css);
-@import url(../blocks/locations/location/__link/location__link.css);
-@import url(../blocks/locations/location/__subtitle/location__subtitle.css);
-@import url(../blocks/locations/location/__website/location__website.css);
-@import url(../blocks/locations/location/__img/location__img.css);
+@import url(../blocks/location/location.css);
+@import url(../blocks/location/__title/location__title.css);
+@import url(../blocks/location/__text/location__text.css);
+@import url(../blocks/location/__paragraph/location__paragraph.css);
+@import url(../blocks/location/__link/location__link.css);
+@import url(../blocks/location/__subtitle/location__subtitle.css);
+@import url(../blocks/location/__website/location__website.css);
+@import url(../blocks/location/__img/location__img.css);
 
 @import url(../blocks/farewell-photo/farewell-photo.css);
 @import url(../blocks/farewell-photo/__title/farewell-photo__title.css);
@@ -44,4 +44,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
 
-@import url(../blocks/media/media.css);
