@@ -6,9 +6,10 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__links/_type/header__links_type-activated.css);
+@import url(../blocks/header/__links/_type-activated/header__links_type-activated.css);
 
 @import url(../blocks/travel-map/travel-map.css);
+@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/travel-map/__title/travel-map__title.css);
 @import url(../blocks/travel-map/__subtitle/travel-map__subtitle.css);
 @import url(../blocks/travel-map/__lead-polka/travel-map__lead-polka.css);

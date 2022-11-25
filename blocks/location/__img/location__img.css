@@ -1,10 +1,12 @@
 .location__img {
-    width: 460px;
+    width: 440px;
+    margin: 0;
+    
 }
 
 @media screen and (max-width: 1024px) {
     .location__img {
-        width: 440px;
+        width: 450px;
     }
 }
 
@@ -19,6 +21,6 @@
 
     .location__img {
         width: 320px;
-        margin: 0 auto;
+        
     }
 }

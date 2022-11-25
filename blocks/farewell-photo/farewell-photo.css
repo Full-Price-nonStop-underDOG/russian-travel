@@ -6,6 +6,8 @@
     grid-template-rows: repeat(2, min-content);
     grid-gap: 32px;
     z-index: 1;
+    text-decoration: none;
+    color: #FFFFFF;
 
 
 }
@@ -30,6 +32,7 @@
 
 @media screen and (max-width: 1024px) {
     .farewell-photo {
+        
         max-width: 1024px;
     }
 
@@ -38,6 +41,7 @@
 @media screen and (max-width: 768px) {
 
     .farewell-photo {
+        margin-top: 90px;
         max-width: 768px;
     }
 }
@@ -47,5 +51,6 @@
     .farewell-photo {
         max-width: 650px;
         margin-top: 66px;
+        margin-bottom: 64px;
     }
 }

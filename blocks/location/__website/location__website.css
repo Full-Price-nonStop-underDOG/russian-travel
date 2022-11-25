@@ -6,6 +6,7 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     position: relative;
+    
 }
 
 .location__website::before {
