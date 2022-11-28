@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 1024px) {
     .farewell-photo {
-        margin-top: 64px;
+        margin-top: 85px;
         max-width: 1024px;
     }
 
@@ -50,7 +50,7 @@
 
     .farewell-photo {
         max-width: 650px;
-        margin-top: 44px;
+        margin-top: 34px;
         margin-bottom: 64px;
     }
 }

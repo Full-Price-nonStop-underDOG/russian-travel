@@ -6,7 +6,7 @@
     line-height: 28px;
     text-decoration: none;
     position: relative;
-    margin-right: 3px;
+    
     
 }
 
@@ -30,9 +30,15 @@
     opacity: 0.8;
 }
 
+
 @media screen and (max-width: 642px){
     .header__links{
         font-size: 18px;
-        margin-right: 10px;
+        margin-right: 15px;
+        padding-right: 2px;
+    }
+
+    .header__links:first-child{
+        padding-right: 0;
     }
 }
