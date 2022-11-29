@@ -46,9 +46,10 @@
     .location {
         display: grid;
         grid-template-columns: minmax(min-content, max-content);
-        max-width: 650px;
+        max-width: 320px;
         gap: 32px;
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 65px;
         
        
